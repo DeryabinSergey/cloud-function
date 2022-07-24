@@ -82,6 +82,7 @@ jobs:
           name: 'my-function'
           runtime: 'php81'
           entry_point: 'main'
+          region: 'europe-west3'
 
       # Example of using the output
       - name: Test
