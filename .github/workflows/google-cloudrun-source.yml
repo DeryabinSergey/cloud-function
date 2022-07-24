@@ -83,7 +83,7 @@ jobs:
           runtime: 'php81'
           entry_point: 'main'
           region: 'europe-west3'
-          service_account_email: 'bucket-reader@germany-embassy.iam.gserviceaccount.com'
+          service_account_email: 'function-default@germany-embassy.iam.gserviceaccount.com'
 
       # Example of using the output
       - name: Test
