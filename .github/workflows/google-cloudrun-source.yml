@@ -84,6 +84,7 @@ jobs:
           entry_point: 'main'
           region: 'europe-west3'
           service_account_email: 'function-default@germany-embassy.iam.gserviceaccount.com'
+          https_trigger_security_level: 'secure_always'
 
       # Example of using the output
       - name: Test
